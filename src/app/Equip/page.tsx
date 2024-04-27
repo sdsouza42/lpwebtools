@@ -2,9 +2,8 @@
 export default function Page() {
     return (
         <div>
-            <p>Load stats here</p>
+            <p>data from equip</p>
         </div>
 
     );
-  }
-  
+}
