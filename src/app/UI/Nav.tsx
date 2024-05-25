@@ -4,15 +4,16 @@ import Passives from '@/app/Passive/page';
 import Idols from '@/app/Idols/page';
 import Blessing from '@/app/Blessing/page';
 import Link from 'next/link';
+import { Button } from '@/app/UI/button';
 
 export default function Page() {
     return (
         <div className="w-3/4 min-h-screen mx-auto mt-0 bg-white shadow-xl border-2 border-blue-500 rounded-md mx-autorelative flex" id='outterframe'>
             <div className=" flex flex-col mx-autorelative items-center justify-around" id='sidebar'>
-                <Link href='./Skills'>
+                <Link href='Skills'>
                     <Button className=""> Skills </Button>
                 </Link>
-                <Link href='./Passives'>
+                <Link href='@/app/Passive/page'>
                     <Button className=""> Passives </Button>
                 </Link>
                 <Link href="./Equip">
